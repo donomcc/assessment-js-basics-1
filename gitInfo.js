@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "Git is a program that allows you to easily track changes in your code."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "Github is a website where you can save your code to the cloud.  Not to be confused with 'Git'"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = "initializes a local repository 'right here' in this folder"
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = "used to point to an existing repo and make a clone or copy of that repo in a new directory at another location"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = "gives information about the repo"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "adds file(s) to be tracked (important)"
+
+const gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +65,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+const gitCommitDefinition = "creates a snapshot of the files tracked"
+
+const gitCommitCode = "git commit"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +76,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = "uploads local repository content to a remote depository"
