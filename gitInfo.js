@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-const gitDefinition = "Git is a program that allows you to easily track changes in your code."
+const gitDefinition = "Git is version control software"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -76,4 +76,4 @@ const gitCommitCode = "git commit"
     It should be a string containing your best definition of what 'git push' does.
 */
 
-const gitPushDefinition = "uploads local repository content to a remote depository"
+const gitPushDefinition = "uploads local repository content to a remote repository"
