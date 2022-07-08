@@ -31,8 +31,8 @@ function fail() {
 
 reader.question("Enter your password: ", function(password) {
 
-    //1. Checks to see if password is less than 20 characters
-    //2. Checks password if its "password" or "letmein"
+    //Check 1. Checks to see if password is no more than 20 characters
+    //Check 2. Checks password if its "password" or "letmein"
 
     if (password.length >= 10 && reg.test(password) && regLetter.test(password) && password.length < 20 && password !== "password" && password !== "letmein"){
         success();
